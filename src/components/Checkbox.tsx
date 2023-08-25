@@ -19,7 +19,7 @@ export function Checkbox({ label, enabled, setEnabled }: Props) {
         >
           <CheckIcon
             className={clsx(
-              'transition-opacity',
+              'w-full transition-opacity',
               enabled ? 'opacity-100' : 'opacity-0',
             )}
           />
